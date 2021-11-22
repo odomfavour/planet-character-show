@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,33 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+
+.char-img {
+  height: 250px !important;
+  object-fit: cover;
+  border-top-left-radius: 10px!important;
+  border-top-right-radius: 10px!important;
+}
+
+.friend-img {
+  height: 150px !important;
+  width: 230px !important;
+  object-fit: cover;
+}
+
+.sidebar {
+  position: absolute;
+  right: 0;
+  top: 70px;
+  width: 400px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2)
+  /* transform: translateX(400px); */
+  /* display: none; */
+}
+
+.scroll-object {
+  height: 400px;
+  overflow-y: scroll;
 }
